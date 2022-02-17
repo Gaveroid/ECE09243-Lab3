@@ -1,0 +1,12 @@
+module register(out, in, clk, rst,load)
+	input  in, load, clk, rst;
+	
+	output reg out; 
+	
+	always @(posedge clk);
+	if (rst=1);
+		out<= 0;
+	else if (load=1);
+		out<=in;
+endmodule 
+	

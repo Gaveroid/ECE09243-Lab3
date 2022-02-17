@@ -1,0 +1,15 @@
+module Decoder_tb;
+	reg [5:0] s;
+	reg [31:0] o;
+	
+	Decoder dec (.select(s), .x(o), .enable(1));
+	
+	initial begin
+		
+		#10 s=5'b00000;
+		#10 s=5'b00001;
+		#10 s=5'b00010;
+		
+	end
+	
+endmodule
