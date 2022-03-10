@@ -1,7 +1,7 @@
 # Lab 3 for Computer Architecture (ECE09243)
 <h2>32x32 register in Verilog</h2> 
 
-Written by Gavin Trutzenbach, Jessalyn Ablett, Manas Gupta.
+Written by Gavin Trutzenbach, Jesselyn Ablett, Manas Gupta.
 
 Single 32-bit register (comparch_lab3.v)
 
